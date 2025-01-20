@@ -1,0 +1,19 @@
+# Ignorar arquivos de configuração do ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar dependências (caso use Node.js)
+node_modules/
+
+# Ignorar logs e arquivos temporários
+*.log
+*.lock
+.DS_Store
+thumbs.db
+
+# Ignorar arquivos do sistema operacional
+__pycache__/
+.vscode/
+.idea/
